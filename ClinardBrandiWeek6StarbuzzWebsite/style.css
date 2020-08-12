@@ -1,0 +1,128 @@
+html {
+    background-image: url('backgroundimages/background.gif');
+}
+
+hr {
+    width: 15%;
+    background-color: rgb(160, 70, 72);
+    height: 3px;
+    border: none;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(84, 74, 55);
+    color: white;
+    text-align: center;
+}
+
+header {
+    height: 110px;
+}
+
+nav {
+    position: absolute;
+    top: 45px;
+    right: 10%;
+
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+p{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: 
+}
+.award{
+     position: absolute;
+    top: 75%;
+    right: 10%;
+    height: 10em;
+    width: 10em;
+    bottom: 10%;
+}
+.bag{
+      position: absolute;
+    top: 75%;
+    right: 10%;
+    height: 16em;
+    width: 16em;
+    padding-bottom: 10%;
+}
+.coupon{
+    position:relative;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 30%;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.online {
+    color: rgb(167, 83, 86);
+}
+.menuBeverage{
+    text-align: center;
+    list-style: none;
+}
+.menuBeverage li {
+    position: relative;
+    height: 30px;
+    padding-top: 10px;
+   
+}
+.menuBeverage li:before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('images/coffeeList.png');
+    background-size: cover;
+    background-position: center;
+    left: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menuElixir{
+    text-align: center;
+    list-style: none;
+}
+.menuElixir li {
+    position: relative;
+    height: 30px;
+    padding-top: 10px;
+   
+   
+}
+.menuElixir li:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-image: url('images/elixirList.png');
+    background-size: cover;
+    background-position: center;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+li{
+    
+    vertical-align: middle;
+}
+.edescript{
+    text-align: center;
+}
